@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              gross_pnl   R-squared:                       0.031
+Model:                            OLS   Adj. R-squared:                  0.030
+Method:                 Least Squares   F-statistic:                     2.877
+Date:                Tue, 02 Dec 2025   Prob (F-statistic):             0.0565
+Time:                        22:49:00   Log-Likelihood:                -27291.
+No. Observations:                2341   AIC:                         5.459e+04
+Df Residuals:                    2338   BIC:                         5.460e+04
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         1684.7526   1587.021      1.062      0.288   -1425.752    4795.257
+sentiment        9.5764     22.022      0.435      0.664     -33.585      52.738
+trades_count    23.3124      9.751      2.391      0.017       4.200      42.425
+==============================================================================
+Omnibus:                     3125.033   Durbin-Watson:                   1.732
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1689043.101
+Skew:                           7.008   Prob(JB):                         0.00
+Kurtosis:                     133.842   Cond. No.                         596.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
